@@ -1,0 +1,37 @@
+#MenuBar{
+	width: 100%;
+	background-color: #add2c9;
+	padding-left: 13vw;
+}
+
+div.Boton{
+	display: inline-block;
+	
+}
+
+div.BotonS{
+	display: inline-block;
+	background-color: #5ea3a3;
+	padding-top: 0.9vw;
+	padding-bottom: 0.9vw;
+}
+
+#Boton1{
+	padding: 2vw 8vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	background-color: #c19898;
+	border-style: none;
+	border-radius: 12px;
+	font-size: 0.5vw;
+}
+
+#Boton2{
+	padding: 2vw 4vw;
+	margin-left: 3vw;
+	margin-right: 10vw;
+	background-color: #4a4a48;
+	border-style: none;
+	border-radius: 12px;
+	font-size: 0.5vw;
+}
