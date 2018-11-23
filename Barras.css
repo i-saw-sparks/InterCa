@@ -1,0 +1,45 @@
+body{
+	margin: 0%;
+}
+
+#BarP{
+	background-color: #488b8f;
+	height: 20%;
+}
+
+div.Barra{
+	width: 40%;
+	margin: 0px;
+}
+
+h1.Barra{
+	font-size: calc(20px + .5vw);
+	color: #faf9f9;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+img.Barra{
+	min-width: 45px;
+	min-height: 45px;
+	width: 4vw;
+	height: 4vw;
+	margin:0px;
+	padding: 0px;
+}
+
+div.Titulo{
+	width: 100%;
+	background-color: #5ea3a3; 
+	margin: 0px;
+	padding: 0px;
+ }
+
+ h2.Titulo{
+ 	text-align: center;
+ 	padding: 0px;
+ 	margin: 0px;
+ 	color: #ebf0f6;
+ 	font-size: calc(20px + 2vw);
+ }
