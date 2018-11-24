@@ -1,6 +1,8 @@
 div.BarraA{
 	background-color: #364e68;
 	margin-top: 60px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px; 
 }
 
 div.LogosA{

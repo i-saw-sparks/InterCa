@@ -1,0 +1,22 @@
+div.Nominados{
+	width: 100%;
+}
+
+div.MenuN{
+	display: inline-block;
+	width: 68%;
+	border-style: dotted;
+}
+
+div.SideBar{
+	display: inline-block;
+	width: 30%;
+	border-style: dotted;
+}
+
+div.ContN{
+	display: inline-block;
+	width: 48.5%;
+	border-style: dotted;
+}
+

@@ -4,6 +4,8 @@
 	padding-top: 0.5vw;
 	padding-bottom: 0.5vw;
 	box-shadow: inset 0px 0px 3px #364e68;
+	border-bottom-right-radius: 14px;
+	border-bottom-left-radius: 14px;
 }
 
 div.Boton{
