@@ -64,13 +64,18 @@ div.Espacio{
 	div.Boton{
 		display: flex;
 		margin-left: 0vw;
+		margin-bottom: 1vw;
+
 	}
 
 	button.Boton2{
 		margin-left: 13vw;
+
 	}
 
 	div.BotonIn{
 		padding-left: 0vw;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
 	}
 }

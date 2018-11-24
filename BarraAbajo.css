@@ -1,0 +1,64 @@
+div.BarraA{
+	background-color: #364e68;
+	margin-top: 60px;
+}
+
+div.LogosA{
+	display: inline-block;
+}
+
+img.LogosA{
+	width: 4vw;
+	margin: 2px;
+}
+
+table.BarraA{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+td.BarraAI{
+	text-align: left;
+}
+
+td.BarraAD{
+	text-align: right;
+}
+
+button.BarraA{
+	background-color: #c19898;
+	border-style: none;
+	border-radius: 14px;
+	font-size: calc(5px + 0.6vw);
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+}
+
+#CommentT{
+	color: #ebf0f6;
+	font-size: calc(5px + 1vw);
+}
+
+#Comment{
+	color: #bcbab8;
+	font-size: calc(5px + 0.8vw);
+}
+
+#Box{
+	width: 20%;
+	max-width: 100px;
+	background-color: #f2f4fb;
+	}
+
+#TBC{
+	margin: 0;
+	padding: 0;
+}
+
+#BTN{
+	width: 20%;
+	text-align: center;
+}
