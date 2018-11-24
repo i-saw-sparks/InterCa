@@ -3,20 +3,36 @@ h3.STitulo{
  	padding: 0px;
  	margin: 0px;
  	color: #1d5464;
- 	font-size: calc(15px + 1.5vw);
+ 	font-size: calc(15px + 1.8vw);
  	font-family: sans-serif;
  	margin-top: 30px;
+ 	margin-bottom: 30px;
  }
 
  p.Init{
- 	width: 45vw;	
+ 	width: 100%;
+ 	text-align: left;
+ 	text-indent: 1vw;
+ 	font-size: calc(10px + 0.8vw);
+ 	margin-left: 2px;
  }
 
  iframe.Init{
- 	width: 40vw;
+ 	width: 80%;
  	height: 22.5vw;
  }
 
- #Cont{
- 	display: inline-block;
+ th.Init{
+ 	width: 50%;
+ }
+
+ th.InitT{
+ 	width: 50%;
+ 	background-color: #98ccd3;
+ 	border-radius: 15px;
+ 	box-shadow: 3px 3px 10px #364e68;
+ }
+
+ table.Init{
+ 	margin-left: 10px;
  }
