@@ -7,3 +7,16 @@ h3.STitulo{
  	font-family: sans-serif;
  	margin-top: 30px;
  }
+
+ p.Init{
+ 	width: 45vw;	
+ }
+
+ iframe.Init{
+ 	width: 40vw;
+ 	height: 22.5vw;
+ }
+
+ #Cont{
+ 	display: inline-block;
+ }
