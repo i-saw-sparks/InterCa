@@ -1,7 +1,8 @@
 #MenuBar{
 	width: 100%;
 	background-color: #add2c9;
-	padding-left: 13vw;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
 }
 
 div.Boton{
@@ -9,29 +10,62 @@ div.Boton{
 	
 }
 
-div.BotonS{
+div.BotonIn{
 	display: inline-block;
-	background-color: #5ea3a3;
-	padding-top: 0.9vw;
-	padding-bottom: 0.9vw;
+	padding-left: 13vw
 }
 
+
+
 #Boton1{
-	padding: 2vw 8vw;
-	margin-left: 10vw;
-	margin-right: 10vw;
+	width: calc(40px + 8vw);
+	height: calc(20px + 2vw);
+	margin-left: 13vw;
+	margin-right: 13vw;
 	background-color: #c19898;
 	border-style: none;
 	border-radius: 12px;
-	font-size: 0.5vw;
+	font-size: calc(5px + 1.2vw);
 }
 
-#Boton2{
-	padding: 2vw 4vw;
-	margin-left: 3vw;
-	margin-right: 10vw;
+button.Boton2{
+	width: calc(40px + 6vw);
+	height: calc(20px + 2vw);	
 	background-color: #4a4a48;
 	border-style: none;
 	border-radius: 12px;
-	font-size: 0.5vw;
+	font-size: calc(3px + 1.2vw);
+	color: #ebf0f6;
+}
+
+div.Espacio{
+	display: inline-block;
+	margin-left: 1vw;
+}
+
+@media only screen and (max-width: 1200px){
+	button.Boton2{
+		width: calc(40px + 6vw);
+		height: calc(20px + 2vw);	
+		background-color: #4a4a48;
+		border-style: none;
+		border-radius: 12px;
+		font-size: calc(3px + 1.2vw);
+		color: #ebf0f6;
+		margin-left: 26vw;
+	}
+
+	
+
+}
+
+@media only screen and (max-width: 540px){
+	div.Boton{
+		display: flex;
+		padding-left: 13vw;
+	}
+
+	button.Boton2{
+		margin-left: 13vw;
+	}
 }
