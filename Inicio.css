@@ -1,0 +1,9 @@
+h3.STitulo{
+ 	text-align: center;
+ 	padding: 0px;
+ 	margin: 0px;
+ 	color: #1d5464;
+ 	font-size: calc(15px + 1.5vw);
+ 	font-family: sans-serif;
+ 	margin-top: 30px;
+ }

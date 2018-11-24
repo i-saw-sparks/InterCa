@@ -43,7 +43,7 @@ div.Espacio{
 	margin-left: 1vw;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1000px){
 	button.Boton2{
 		width: calc(40px + 6vw);
 		height: calc(20px + 2vw);	
@@ -62,10 +62,14 @@ div.Espacio{
 @media only screen and (max-width: 540px){
 	div.Boton{
 		display: flex;
-		padding-left: 13vw;
+		margin-left: 0vw;
 	}
 
 	button.Boton2{
 		margin-left: 13vw;
+	}
+
+	div.BotonIn{
+		padding-left: 0vw;
 	}
 }
