@@ -1,4 +1,4 @@
-table.MAlbum{
+table.MCancion{
 	width: 100%;
 	margin-top: 30px;
 }
@@ -27,49 +27,44 @@ img.SideBar{
 	width: 5vw;
 }
 
-div.Repr{
-	margin-left: 1vw;
-	height: 100%;
-}
-
-div.Desc{
+th.Cancion{
+	width: 45%;
+	display: inline-block;
 	background-color: #98ccd3;
 	border-radius: 20px;
 	box-shadow: 3px 3px 10px #364e68;
-	margin-right: 1vw;
+	margin-bottom: 4vw;
 }
 
-img.MenuN{
-	width: 20vw;
-}
-
-#Reproductor{
+table.Cancion{
 	width: 100%;
-	height: 100%; 
 }
 
-th.SubC{
-	width: 50%;
-	height: 1px;
-
+#ci{
+	margin-right: 2vw;
 }
 
-#r1{
-	padding: 10px;
+#cd{
+	margin-left: 2vw;
 }
 
-h3.SubC{
+iframe.Cancion{
+	width:75%;
+	height:80px;
+}
+
+img.Cancion{
+	width: 75%;
+}
+
+h3.Cancion{
 	font-size: calc(10px + 2vw);
 	margin: 0;
 }
 
-h4.SubC{
+h4.Cancion{
 	font-size: calc(8px + 1.2vw);
 	margin: 0;
-}
-
-p.SubC{
-	font-size: calc(8px + 0.6vw);
 }
 
 @media only screen and (max-width: 800px){
@@ -84,13 +79,5 @@ p.SubC{
 }
 
 @media only screen and (max-width: 500px){
-	#r1{
-		display: inline-table;
-		width: 90%;
-	}
-
-	#con{
-		display: inline-table;
-		width: 90%;
-	}
+	
 }
