@@ -3,6 +3,10 @@ body{
 	background-color: #feffdf;
 }
 
+caption{
+	display: none;
+}
+
 #BarP{
 	background-color: #488b8f;
 	
