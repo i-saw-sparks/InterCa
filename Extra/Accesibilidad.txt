@@ -1,0 +1,9 @@
+1-La página estará diseñada con colores amigables con las personas que presentes daltonismo (especialmente del tipo: protanopia, protanomalía, deuteranopia y deuteranomalía) de manera que no se resaltarán cosas importantes en colores que ellos no pueden percibir.
+2-La página estará contará con un diseño responsivo, así como con tamaños de fuente y de botones grandes para las personas con dificultades visuales y aquellas que necesiten usar la página en distintos tamaños de pantalla.
+3-La página contará con texto alternativo en todas las imágenes por si se presenta el caso de una carga fallida.
+4-La página contará con títulos alternativos en todos los internet frames por si se presenta el caso de una carga fallida.
+5-La página especificará el idioma en que está escrita por lo que podrá ser traducida automáticamente por el traductor del navegador.
+6-Todas las tablas respetaran el formato marcado por la norma WCAG1.0 de manera que la página sea compatible con lectores de pantalla.
+7-La página estará organizada por sus respectivos encabezados y subencabezados para una mayor compatibilidad con lectores de pantalla.
+8-Se podrá llegar a cualquier punto de la página en menos de 4 clicks
+9-La página contará con todos lo puntos marcados en la norma WCAG1.0 

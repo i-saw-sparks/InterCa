@@ -1,0 +1,45 @@
+div.ContSop{
+	margin-left: 2vw;
+	align-content: center;
+}
+
+p.ContSop{
+	width:68%;
+	 display: inline-block;
+	 text-align: justify;
+	 font-size: calc(10px + 1.6vw);
+}
+
+img.ContSop{
+	width: 28%;
+	 display: inline-block;
+}
+
+div.Desc{
+	width: 10%;
+	display: inline-block;
+	margin: 4vw;
+}
+
+#Down{
+	width: 100%;
+	text-align: center;
+}
+
+h2.Desc{
+	font-size: calc(10px + 1vw);
+}
+
+img.Desc{
+	width: 100%;
+}
+
+@media only screen and (max-width: 550px){
+	img.ContSop{
+		display: none;
+	}
+
+	p.ContSop{
+		width: 98%;
+	}
+}

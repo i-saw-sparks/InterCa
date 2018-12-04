@@ -1,0 +1,45 @@
+div.Seccion{
+	width: 100%;
+}
+
+h3.Seccion{
+	background-color: #98ccd3;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #364e68;
+	text-align: center;
+	font-size: calc(10px + 2vw);
+}
+
+div.Fotos{
+	width: 98%;
+	background-color: #98ccd3;
+	padding-top: 1vw; 
+	padding-bottom: 1vw;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #364e68;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+img.Fotos{
+	width: 18.5%;
+	display: inline-block;
+	margin: 0.1vw;
+	border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 800px){
+	img.Fotos{
+		width: 31.5%;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	img.Fotos{
+		width: 90%;
+		margin-bottom: 1vw;
+	}
+}
